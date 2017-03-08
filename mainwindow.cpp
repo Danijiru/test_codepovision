@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    ui->setupUi(this);::c
+    ui->setupUi(this);
     cv::Mat inputImage = cv::imread("/home/sam/Images/emily.jpg");
     cv::imshow("Display Image", inputImage);
     std::cou << "bonjour on choux";
